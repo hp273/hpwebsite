@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact me</title>
+    <style>
+        form.eform {
+            display: table;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Contact me</h1>
+    <br>
+    <Address>
+        <strong>gmail : </strong><cite><a href="mailto:harsh2739116@gmail.com">harsh2739116@gmail.com</a></cite><br>
+        <strong>Ph. : </strong><cite></cite><a href="tel:+91 8780047456">(+91) 8780047456</a></cite><br>
+        <P><strong>Address : </strong> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit quibusdam quis
+            quia ducimus, incidunt maiores rerum molestiae modi dignissimos.</P>
+    </Address>
+    <br>
+
+    <form method="post" action="mailto:harsh272003jnv@gmail.com" class="eform" enctype="text/plain"> <!--action="mailto:xxxx@gmail.com"-->
+        <fieldset >
+            <div class="eform">
+                <label for="name">Name : </label>
+                <input type="text" name="Name" required>
+                <input type="color">
+                <button>save</button>
+            </div>
+            <br>
+            <div class="eform">
+                <label for="DOB">Date of Birth : </label>
+                <input type="date" name="Date of Birth" required>
+                <button>save</button>
+            </div>
+            <div>
+
+                <label for="sex"> Gender : </label>
+                <label><input type="radio" name="Gender" value="male" /> male</label>
+                <label><input type="radio" name="Gender" value="female" /> female</label>
+                <button>save</button>
+            </div>
+            <br>
+            <div class="eform">
+                <label for="email">Email : </label>
+                <input type="email" name="Email" id="email" required>
+                <button>save</button>
+            </div>
+            <br>
+            <div>
+            <label for="ph">Phone No. : </label>
+            <input type="tel" value="phone no." name="Phone No." id=""  minlength="" maxlength="10">
+            <button>save</button>
+            <div>
+            <br>
+            <div>
+                <label for="password">password : </label>
+                <input type="password" name="pass" id="" minlength="8" maxlength="12"> 
+                <input type="password" name="pass" id="" value="rewrite" minlength="8" maxlength="12">
+                <input type="reset" value="Reset">
+            </div>
+            <br>
+            <div>
+                <label for="textarea">Your remark : </label><br>
+                <textarea name="My remark" id="" cols="30" rows="10"></textarea>
+            </div>
+            <div>
+                <input type="submit" value="SUBMIT" name="" id="">
+            </div>
+        </fieldset>
+
+    </form>
+
+
+
+</body>
+
+</html>
